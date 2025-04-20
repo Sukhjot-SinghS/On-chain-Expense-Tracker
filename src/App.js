@@ -313,7 +313,7 @@ const updateName = async () => {
     <div className="App">
       <header className="App-header">
        
-        <h1 class="onchain-heading"><span role="img" aria-label="coin">⛓️</span>On-Chain Expense Tracker</h1>
+        <h1 className="onchain-heading"><span role="img" aria-label="coin">⛓️</span>On-Chain Expense Tracker</h1>
         
       
         {/* STEP 1: CONNECT WALLET - Show if not connected */}
@@ -325,7 +325,7 @@ const updateName = async () => {
         
         /* STEP 2: REGISTER - Show if connected but not registered */
         : !isRegistered ? (
-          <div class= "gradient-border-section">
+          <div className= "gradient-border-section">
             <h2>Register</h2>
             <input
               type="text"
